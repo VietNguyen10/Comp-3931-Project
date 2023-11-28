@@ -1,0 +1,7 @@
+﻿  tp_record.c
+C:\Users\hyper\source\repos\Term_Project_DLL\tp_record.c(16,22): warning C4047: 'initializing': 'DWORD' differs in levels of indirection from 'void *'
+C:\Users\hyper\source\repos\Term_Project_DLL\tp_record.c(112,16): warning C4311: 'type cast': pointer truncation from 'HWND' to 'DWORD'
+C:\Users\hyper\source\repos\Term_Project_DLL\tp_record.c(164,16): warning C4311: 'type cast': pointer truncation from 'HWND' to 'DWORD'
+C:\Users\hyper\source\repos\Term_Project_DLL\tp_record.c(223,56): warning C4311: 'type cast': pointer truncation from 'HWND' to 'DWORD'
+     Creating library C:\Users\hyper\source\repos\Term_Project\x64\Debug\Term_Project_DLL.lib and object C:\Users\hyper\source\repos\Term_Project\x64\Debug\Term_Project_DLL.exp
+  Term_Project_DLL.vcxproj -> C:\Users\hyper\source\repos\Term_Project\x64\Debug\Term_Project_DLL.dll

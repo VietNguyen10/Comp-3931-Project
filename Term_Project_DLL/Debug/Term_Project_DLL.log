@@ -1,0 +1,4 @@
+﻿  tp_record.c
+C:\Users\hyper\source\repos\Term_Project_DLL\tp_record.c(16,22): warning C4047: 'initializing': 'DWORD' differs in levels of indirection from 'void *'
+     Creating library C:\Users\hyper\source\repos\Term_Project\Debug\Term_Project_DLL.lib and object C:\Users\hyper\source\repos\Term_Project\Debug\Term_Project_DLL.exp
+  Term_Project_DLL.vcxproj -> C:\Users\hyper\source\repos\Term_Project\Debug\Term_Project_DLL.dll

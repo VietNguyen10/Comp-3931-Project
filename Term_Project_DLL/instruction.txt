@@ -1,0 +1,14 @@
+How to make a dll (Dynamic link library) file in C and use it in C#:
+
+1: Make a C and C# solution
+2: Create function you want to export in C
+   use "__declspec(dllexport) <return type> <name>()" format to export function;
+3: Set following project properties:
+   +) General -> configuration type -> dynamic library (.dll)
+   +) Linker -> Command line -> Additional Option: winmm.lib
+   +) Linker -> System -> Sub system: Window(/SUBSYSTEM:WINDOWS)
+4: Batch build:
+   +) debug : x64 : debug|x64
+   +) debug : Win32 : debug|x86
+5: Rebuild solution
+6: Go to bin in C# solution (.dll will be here)
